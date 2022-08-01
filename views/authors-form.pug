@@ -1,0 +1,16 @@
+extends layoutLogout
+
+block content 
+    form(action="/authors-form" method='post')
+        .form-display
+            mb-3
+                label(for="author" class="form-label") Author Name
+                input(type="text" name="name" class="form-control" id="#" aria-describedby="emailHelp")
+            mb-3
+                label(for="age" class="form-label") Age
+                input(type="number" name="age" class="form-control" id="#")
+            mb-3
+                label(for="address" class="form-label") Address
+                input(type="text" name="address" class="form-control" id="#")
+
+                button(type="submit" href="#" class="btn btn-primary") Add Author

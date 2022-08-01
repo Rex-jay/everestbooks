@@ -1,0 +1,19 @@
+extends layoutLogout
+
+block content 
+    form(action=`/add-book/${id}?_method=patch` method='post')
+        .form-display
+            mb-3
+                label(for="bookname" class="form-label") Book Name
+                input(type="text" name="bookname" class="form-control" id="#")
+            mb-3
+                label(for="publishedstatus" class="form-label") Published Status
+                input(type="text" name="status" class="form-control" id="#")
+            mb-3
+                label(for="datepublished" class="form-label") Date Published
+                input(type="date" name="datepublished" class="form-control" id="#")
+            mb-3
+                label(for="datepublished" class="form-label") Serial Number
+                input(type="text" name="serialnumber" class="form-control" id="#")
+
+                button(type="submit" href="#" class="btn btn-primary") Add Book

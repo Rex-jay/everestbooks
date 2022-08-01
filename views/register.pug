@@ -1,0 +1,26 @@
+extends layout
+
+block content   
+    //- if(message.length > 0)
+    //-     #{ message }
+    
+    .register-display
+        .header 
+            h2 Sign Up
+        form(action="/register", method="POST")
+            .form-group 
+                input(type="text" name="firstname" placeholder="First Name" class="form-control shadow-none")
+            .form-group
+                input(type="text" name="lastname" placeholder="Last Name" class="form-control shadow-none")
+            .form-group
+                input(type="date" name="dob" placeholder="Date of Birth" class="form-control shadow-none")
+            .form-group
+                input(type="email" name="email" placeholder="Email" class="form-control shadow-none")
+            .form-group
+                input(type="text" name="phone" placeholder="Phone Number" class="form-control shadow-none")
+            .form-group 
+                input(type="password" name="password" placeholder="Password" class="form-control shadow-none")
+            .form-group 
+                input(type="password" name="repeat_pwd" placeholder="Confirm Password" class="form-control shadow-none")
+            button(type="submit" class="btn btn-primary") Register
+    

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    .login-display
+        .header 
+            h2 Log In
+        form(action="/login", method="POST")
+            .form-group 
+                label(for="username") Email
+                input(type="text" name="email" class="form-control shadow-none")
+            .form-group 
+                label(for="password") Password
+                input(type="password" name="password" class="form-control shadow-none")
+            button(type="submit" class="btn btn-primary") Login

@@ -1,0 +1,80 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+}
+
+.display-box1 {
+
+}
+
+.display-box2 {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.display-footer{
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  height: 15px;
+  background-color:rgb(26, 24, 24);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.home-content {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#heading2 {
+  text-align: center;
+  color: white;
+}
+
+.display-table {
+  padding-left: 100px;
+  padding-right: 100px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.form-display{
+  max-width: 550px;
+  height: 500px;
+  padding: 40px;
+  background-color: powderblue;
+}
+
+.form-control{
+  margin-bottom: 20px;
+}
+
+.login-display{
+  max-width: 400px;
+  height: 270px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 194, 220);
+}
+
+.register-display{
+  max-width: 500px;
+  height: 520px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(124, 194, 220);
+}
+
+.header{
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}

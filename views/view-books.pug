@@ -1,0 +1,20 @@
+extends layoutLogout
+
+block content
+    h2#heading2 Books Collection
+
+    .display-books
+    
+        div(class="card" style="width: 18rem;")
+            img(src="/images/testbook.jpg" height="120" width="width" class="card-img-top" alt="...")
+            div(class="card-body")
+                h5(class="card-title") Book Name
+            ul(class="list-group list-group-flush")
+                li(class="list-group-item") P-Status
+                li(class="list-group-item") S. No
+                li(class="list-group-item") Date
+            div(class="card-body")
+                a(href="#" class="btn btn-info") Edit
+                a(href="#" class="btn btn-secondary") Delete
+        
+        a(type="#" href='/addBooks' class="btn btn-primary btn-lg") Add Book
